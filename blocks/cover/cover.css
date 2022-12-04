@@ -1,34 +1,43 @@
 .cover {
-    display: flex;
+    display: grid;
     margin: 0 auto 92px;
     text-align: center;
-    position: relative;
+}
+
+.cover:hover > .cover__overlay {
+    transition-duration: 2s;
+    opacity: 0.8;
+}
+
+.cover:hover > .cover__container:hover {
+    opacity: 1;
 }
 
 @media screen and (min-width: 1280px) {
     .cover {
         width: 1184px;
-        height: 740px;
+        min-height: 740px;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover {
         width: 1024px;
-        height: 640px;
+        min-height: 640px;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover {
         width: 768px;
-        height: 480px;
+        min-height: 480px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .cover {
         width: 320px;
-        height: 200px;
+        min-height: 200px;
+        margin: 0 auto 64px;
     }
 }
