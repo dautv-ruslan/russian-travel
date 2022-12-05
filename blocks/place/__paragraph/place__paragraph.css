@@ -3,7 +3,6 @@
     line-height: 163%;
     color: #ffffff;
     width: 484px;
-    margin: 0 0 26px;
     padding: 0;
 }
 
@@ -14,6 +13,7 @@
 @media screen and (min-width: 1024px) {
     .place__paragraph {
         font-size: 18px;
+        margin: 0 0 26px;
     }
 }
 
@@ -38,13 +38,14 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__paragraph {
         width: 352px;
+        margin: 0 0 25px;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .place__paragraph {
         width: 288px;
-        margin: 0 auto 26px;
+        margin: 0 auto 25px;
     }
     .place__paragraph:last-of-type {
         margin: 0 auto;
