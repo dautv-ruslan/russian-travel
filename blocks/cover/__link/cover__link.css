@@ -2,3 +2,15 @@
     display: grid;
     text-decoration: none;
 }
+
+.cover__link:hover > .cover__overlay {
+    opacity: 0.8;
+}
+
+.cover__link > .cover__overlay:hover {
+    opacity: 0.8;
+}
+
+.cover__link > .cover__container:hover {
+    opacity: 1;
+}

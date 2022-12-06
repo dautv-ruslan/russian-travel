@@ -1,15 +1,8 @@
 .cover {
+    background-size: cover;
     margin: 0 auto 92px;
     text-align: center;
-}
-
-.cover:hover > .cover__overlay {
-    transition-duration: 2s;
-    opacity: 0.8;
-}
-
-.cover:hover > .cover__container:hover {
-    opacity: 1;
+    background-image: url(../../images/__background.png);
 }
 
 @media screen and (min-width: 1280px) {

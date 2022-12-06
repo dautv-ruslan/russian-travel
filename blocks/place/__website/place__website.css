@@ -1,7 +1,3 @@
-.place__website {
-    padding-bottom: 8px;
-}
-
 @media screen and (min-width: 768px) {
     .place__website {
         grid-column: 2 / 2;
