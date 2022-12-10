@@ -18,7 +18,7 @@
 - Адаптивная верстка под мобильные телефоны и планшеты, десктопная версия
 
 ## Ссылка на github pages
-https://dautv-ruslan.github.io/russian-travel/(https://dautv-ruslan.github.io/russian-travel/)
+https://dautv-ruslan.github.io/russian-travel
 
 
 
