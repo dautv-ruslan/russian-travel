@@ -3,10 +3,6 @@
     color: #ffffff;
     text-align: right;
     text-decoration: none;
-    margin-left: 18px;
-}
-.header__link:first-of-type {
-    margin-left: 0;
 }
 
 .header__link:hover {
@@ -21,7 +17,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .header__link {
         font-size: 18px;
         line-height: 20px;

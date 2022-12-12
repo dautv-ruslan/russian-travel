@@ -1,4 +1,11 @@
 .header__links {
     display: flex;
     align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header__links > li:not(:first-of-type) {
+    margin-left: 18px;
 }
