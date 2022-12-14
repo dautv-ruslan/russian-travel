@@ -1,35 +1,14 @@
 .cover__link {
     grid-area: 1 / -1;
     text-decoration: none;
+    background-size: cover;
+    background-image: url(../../../images/__background.png);
+    background-color: rgba(42, 44, 47, 0.3);
+    background-blend-mode: multiply;
+    transition-duration: 2s;
+    cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
-    .cover__link {
-        max-width: 560px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .cover__link {
-        margin: 245px 312px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cover__link {
-        margin: 195px 232px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .cover__link {
-        margin: 115px 104px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .cover__link {
-        max-width: 288px;
-        margin: 33px 16px;
-    }
+.cover__link:hover {
+    background-color: rgba(42, 44, 47, 0.8);
 }

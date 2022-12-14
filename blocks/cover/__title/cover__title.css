@@ -5,9 +5,30 @@
     text-align: center;
     color: #ffffff;
     max-width: 560px;
-    margin: 0 auto 32px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
     position: relative;
     opacity: 1;
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__title {
+        margin-top: 245px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover__title {
+        margin-top: 195px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover__title {
+        margin-top: 115px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -15,6 +36,7 @@
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
+        margin-top: 33px;
         margin-bottom: 16px;
     }
 }
